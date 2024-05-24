@@ -27,6 +27,7 @@ El objetivo de este proyecto es generar y consumir un modelo de redes neuronales
 - `README.md`: Instrucciones para reproducir el proyecto.
 - `requirements.txt`: Archivo con las dependencias del proyecto.
 
+- Versión en colab: https://colab.research.google.com/drive/12mzEaEZk81atPd2dLnjZ_6iE3tVyH11R?usp=sharing
 
 ## Analisis Exploratorio de Datos
 
