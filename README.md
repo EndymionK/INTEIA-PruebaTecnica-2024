@@ -106,14 +106,14 @@ El objetivo de este proyecto es generar y consumir un modelo de redes neuronales
 ## Plus
 
 - Se implementó un script alternativo para consumir un modelo entrenado en roboflow y realizar la segmentación de las 10 primeras imagenes del dataset.
-- Para este modelo se utilizó un dataset encontrado en roboflow (https://universe.roboflow.com/carlos-lvaro/landuse-hlcwh).
+- Para este modelo se utilizó un dataset encontrado en roboflow [carlos-lvaro/landuse-hlcwh](https://universe.roboflow.com/carlos-lvaro/landuse-hlcwh).
 - Se crearon 3 versiones del modelo con diferentes preprocesamientos de datos.
-- El modelo con el mejor rendimiento obtuvo un mIoU de 61.3% (https://app.roboflow.com/inteia-jrutn/corine-land-cover-segmentation/4)
+- El modelo con el mejor rendimiento obtuvo un mIoU de 61.3% [aquí](https://app.roboflow.com/inteia-jrutn/corine-land-cover-segmentation/4)
 - Al probarlo con las imagenes del dataset, el modelo da unos resultados... interesantes. Igualmente, se puede mejorar con un dataset más grande y balanceado
 - Se identificaron distintos datasets que podrían ser consolidados para mejorar el modelo.
-    - Mining dump: https://universe.roboflow.com/tailings-wdzgw/mining-dumps
-    - Coastal wetland: https://universe.roboflow.com/cosatl-wetland/new-coastal-wetland-segmentation
-    - Inland water bodies: https://universe.roboflow.com/inland-water-bodies/new-inland-water-bodies-segmentation
+    - Mining dump: [aquí](https://universe.roboflow.com/tailings-wdzgw/mining-dumps)
+    - Coastal wetland: [aquí](https://universe.roboflow.com/cosatl-wetland/new-coastal-wetland-segmentation)
+    - Inland water bodies: [aquí](https://universe.roboflow.com/inland-water-bodies/new-inland-water-bodies-segmentation)
     - Etc.
 
 ## Agradecimientos
