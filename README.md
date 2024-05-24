@@ -89,7 +89,7 @@ El objetivo de este proyecto es generar y consumir un modelo de redes neuronales
 - La implementación de un modelo de redes neuronales convolucionales para la segmentación semantica multiclase de imagenes de imagenes satelitales de la tierra es un problema complejo pero muy interesante.
 - El desbalanceo de clases y la reducción de la resolución de las imagenes son factores que afectan gravemente el rendimiento del modelo.
 - La focal loss es una función de pérdida que puede mejorar el rendimiento del modelo en la segmentación de imagenes.
-- Vale la pena analizar el paper (https://www.mdpi.com/2072-4292/14/18/4558) para implementar la arquitectura sugerida.
+- Vale la pena analizar el [paper](https://www.mdpi.com/2072-4292/14/18/4558) para implementar la arquitectura sugerida.
 - La web Roboflow es una excelente herramienta para la clasificación y segmentación de imagenes ademas de la creación de modelos de redes neuronales. (Gracias por enseñarmela c: )
 
 ![Imagen muestra de resultados](Resultados.jpeg)
