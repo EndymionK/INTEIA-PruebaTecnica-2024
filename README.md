@@ -41,7 +41,7 @@ El objetivo de este proyecto es generar y consumir un modelo de redes neuronales
     - 3: Agua
     - 4: Caminos
 - Se observó que las clases 0, 1, 2, 3, 4 estan muy desbalanceadas en el dataset.
-- Se encontró que las clases tienen los siguientes porcentajes promedios de presencia  
+- Se encontró que las clases tienen los siguientes porcentajes promedios de presencia:  
     - 0: 50.33%
     - 1: 7.13%
     - 2: 34.69%
@@ -80,6 +80,9 @@ El objetivo de este proyecto es generar y consumir un modelo de redes neuronales
 - La metrica IoU tuvo un rendimiento similar al f1_score.
 - La accuracy tuvo un rendimiento promedio de 0.48.
 - Se observó que el modelo tiene un rendimiento bajo en la segmentación de imagenes.
+- Se observó que el modelo tiene un rendimiento bajo en la segmentación de las clases 1, 3, 4.
+- Se observó que el modelo tiene un rendimiento aceptable en la segmentación de las clases 0, 2.
+- El modelo en la mayoría de los casos se limita a segmentar las clases 0 y 2 ignorando las clases 1, 3, 4.
 
 ## Conclusiones
 
@@ -88,6 +91,8 @@ El objetivo de este proyecto es generar y consumir un modelo de redes neuronales
 - La focal loss es una función de pérdida que puede mejorar el rendimiento del modelo en la segmentación de imagenes.
 - Vale la pena analizar el paper (https://www.mdpi.com/2072-4292/14/18/4558) para implementar la arquitectura sugerida.
 - La web Roboflow es una excelente herramienta para la clasificación y segmentación de imagenes ademas de la creación de modelos de redes neuronales. (Gracias por enseñarmela c: )
+
+![Imagen muestra de resultados](Resultados.jpeg)
 
 ## Areas de Mejora
 
